@@ -6,8 +6,8 @@ const rl = readline.createInterface({
     output:process.stdout
 });
 
-const apikey = '8dafe2a2ed1c491e0a55da46';
-const url = 'https://v6.exchangerate-api.com/v6/8dafe2a2ed1c491e0a55da46/latest/USD';
+const apikey = 'your key';
+const url = 'https://v6.exchangerate-api.com/v6/your key/latest/USD';
 
 const result =(amount , cur)=>{
     return amount*cur;
